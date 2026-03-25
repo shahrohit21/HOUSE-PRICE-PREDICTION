@@ -75,7 +75,7 @@ with col2:
     st.markdown("### 📈 Prediction Panel")
 
     if st.button("🚀 Predict Price"):
-        data = np.array([[area, bedrooms, bathrooms, floors, parking_val, furnishing_val, location_val]])
+        data = np.array([[area, bedrooms, bathrooms, floors, parking_val]])
 
         prediction = model.predict(data)
 
